@@ -1,15 +1,13 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName';
-import Lista from './components/Lista';
+import Condicional from './components/Condicional';
+
 
 function App() {  
 
   return (
     <div className="App">
-      <HelloWorld />
-      <SayMyName nome='Vinicius' />
-      <Lista />
+      <h1>Testando Condicionais</h1>
+      <Condicional />
     </div>
   );
 }
